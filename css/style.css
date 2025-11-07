@@ -8,7 +8,19 @@
 /* Base Typography Settings
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 :root {
-	font-size:16px;
+	font-size:16px;           /* Base size - 16px browser default */
+	--scale-0:1rem;           /* 16px */
+	--scale-1:1.25rem;        /* 20px */
+	--scale-2:1.563rem;       /* 25px */
+	--scale-3:1.953rem;       /* 31px */
+	--scale-4:2.441rem;       /* 39px */
+	--scale-5:3.052rem;       /* 49px */
+	--spacing-xs:0.5rem;      /* 8px */
+	--spacing-s:1rem;         /* 16px */
+	--spacing-m:1.5rem;       /* 24px */
+	--spacing-l:2rem;         /* 32px */
+	--spacing-xl:3rem;        /* 48px */
+	--spacing-xxl:4rem;       /* 64px */
 }
 
 /* Grid
@@ -35,9 +47,7 @@
 	margin-bottom: 1rem;  				/* 16px space between paragraphs */
   }
 .column {
-	position:center;
 	width:100%;
-	float:center;
 	box-sizing:border-box;
 }
 /* For devices larger than 400px */
@@ -100,7 +110,6 @@
   --scale-3:1.953rem;       /* 31px */
   --scale-4:2.441rem;       /* 39px */
   --scale-5:3.052rem;       /* 49px */
-
   /* Spacing units */
   --spacing-xs:0.5rem;      /* 8px */
   --spacing-s:1rem;         /* 16px */
@@ -109,7 +118,6 @@
   --spacing-xl:3rem;        /* 48px */
   --spacing-xxl:4rem;       /* 64px */
 }
-
 /* Avatar */
 .avatar {
 	width: 8rem;             /* 128px */

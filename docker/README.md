@@ -4,7 +4,7 @@ Docker configuration to run LittleLink in a container.
 
 ## File Structure
 
-- `Dockerfile`: Defines how the image is built using nginx:alpine
+- `Dockerfile`: Defines the production image using `moellerprojects/docker-static-website` (an nginx-based static site image)
 - `compose.yaml`: Configuration for Docker Compose with volumes for development
 - `.dockerignore`: Excludes unnecessary files from the image
 
